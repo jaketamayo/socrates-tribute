@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+  }
+  *{
+      padding: 0;
+      margin: 0;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  #header-container{
+    width: 100vw;
+    height: 10vh;  
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /***************** MAIN ************/
+
+
+
+  .img-container-flex{ 
+      width: 100vw;
+      height: 60vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .img-socrates{
+      width: auto;
+      height: 500px;
+  }
+
+  .quote {
+      margin-left: 50px;
+  }
+
+
+   /***************** GRID SECTION ************/
+
+   .grid-container{
+       display: grid;
+       grid-template-columns: auto auto auto;
+   }
+
+
